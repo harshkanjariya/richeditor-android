@@ -16,6 +16,10 @@
 
 @charset "UTF-8";
 
+@font-face {
+  font-family: virgil;
+  src: url(Virgil.woff2);
+}
 
 html {
   height: 100%;
@@ -27,6 +31,7 @@ body {
   table-layout: fixed;
   width: 100%;
   min-height:100%;
+  font-family: virgil;
 }
 
 #editor {
